@@ -152,9 +152,10 @@ h1 {
   
   .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     flex-direction: row;
+    row-gap: 1em;
     flex-wrap: wrap;
   }
 
@@ -164,7 +165,7 @@ h1 {
     box-shadow: 0 5px 25px rgba(76, 175, 80, 0.881);
     border-radius: 10px;
     padding: 25px;
-    margin: 15px;
+    margin: auto;
     transition: 0.7s ease;
     
   }
@@ -185,7 +186,7 @@ h1 {
   #myp{
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
     flex-direction: row;
     flex-wrap: wrap;
   }
